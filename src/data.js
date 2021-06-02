@@ -26,12 +26,27 @@ export const links = [
     url: '/profile',
     text: 'profile',
   },
+  {
+    id: 6,
+    url: '/Lab',
+    text: 'lab',
+  },
+  {
+    id: 7,
+    url: '/Map',
+    text: 'map',
+  },
+  {
+    id: 8,
+    url: '/Address',
+    text: 'address',
+  },
 ]
 
 export const social = [
   {
     id: 1,
-    url: 'https://www.twitter.com',
+    url: 'https://www.facebook.com',
     icon: <FaFacebook />,
   },
   {
@@ -41,12 +56,12 @@ export const social = [
   },
   {
     id: 3,
-    url: 'https://www.twitter.com',
+    url: 'https://www.linkedin.com',
     icon: <FaLinkedin />,
   },
   {
     id: 4,
-    url: 'https://www.twitter.com',
+    url: 'https://www.behance.com',
     icon: <FaBehance />,
   },
 ]

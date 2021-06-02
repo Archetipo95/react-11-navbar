@@ -1,5 +1,5 @@
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -45,7 +45,7 @@ Variables
   --fixed-width: 620px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -135,7 +135,7 @@ p {
 }
 
 /*
-=============== 
+===============
 Navbar
 ===============
 */
@@ -205,7 +205,7 @@ nav {
     display: none;
   }
   .links-container {
-    height: auto !important;
+    height: auto !important; /*! auto and !important must be added coz we have inline css in code and we risk not to see desktop links if we hide them in mobile*/
   }
   .links {
     display: flex;
